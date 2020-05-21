@@ -5,7 +5,7 @@ body {
 }
 
 .button {
-  display: block;
+  display: inline-block;
   border: none;
   background-color: #2174fd;
   color: #fff;
@@ -46,6 +46,7 @@ body {
 .input {
   width: 390px;
   min-height: 45px;
+  display: block;
 }
 
 .list-add {
@@ -85,4 +86,15 @@ body {
 
 .column-left {
   min-width: 470px;
+}
+
+@media (max-width: 975px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    margin-top: 50px;
+    width: 100%;
+  }
 }
