@@ -77,6 +77,16 @@ body {
 .column-left {
   min-width: 470px; }
 
+.hide-item {
+  margin-left: 60%;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: none; }
+
+.rotate {
+  transform: rotate(180deg); }
+
 @media (max-width: 975px) {
 
   .wrapper {
